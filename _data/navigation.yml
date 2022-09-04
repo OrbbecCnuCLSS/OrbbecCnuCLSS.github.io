@@ -11,11 +11,11 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "FAQ"
       section: services
-    - title: "Portfolio"
-      section: portfolio
-    - title: "About"
+    #- title: "Portfolio"
+    #  section: portfolio
+    - title: "Course"
       section: about
     - title: "Timeline"
       section: timeline
@@ -23,8 +23,8 @@ en: &DEFAULT_EN
       section: team
     - title: "Contact"
       section: contact
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+#    - title: "Theme Source"
+#      url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -56,3 +56,22 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  nav:
+    - title: "Leistungen"
+      section: Leistungen
+    - title: "Portfolio"
+      section: Portfolio
+    - title: "Über uns"
+      section: Ueber
+    - title: "Geschichte"
+      section: Geschichte
+    - title: "Team"
+      section: Team
+    - title: "Kontakt"
+      section: Kontakt
+    - title: "Quellcode des Themas"
+      url: https://github.com/raviriley/agency-jekyll-theme/

@@ -11,152 +11,139 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
-    button: Tell Me More
+    title: Welcome to Chasing Light Space Station!
+    text: 首师大-奥比中光 追光空间站
+    button: 了 解 更 多
     buttonlink: "#services"
-
+  
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "FAQ"
+    text: "快问快答"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "我们是谁？"
+        desc: "我们是以首都师范大学对**计算机视觉**相关技术感兴趣的学生为主的兴趣小组，在这里我们有机会接触计算机视觉、机器人和元宇宙等方向的最新设备和算法，接受以实际应用为导向的3D算法和技术专业技能培训，组团参加各类算法和技术挑战赛。"
+        icon: fas fa-users #find more at https://fontawesome.com/icons
+      - title: "奥比中光是啥？"
+        desc: "一个做**深度相机**的公司，致力于将先进的AI 3D传感技术赋能应用于多元领域，已成为全球领先的AI 3D传感技术方案提供商。"
+        icon: fas fa-building
+      - title: "我们之前做过什么？"
+        desc: "成立前，我们有人参加过**奥比中光&英伟达第二届3D视觉创新应用竞赛**，参赛题目为《自由视角三维视频拍摄》并获得了**第二名**。[比赛结果链接](https://developer.orbbec.com.cn/v/forum_detail/13488)"
+        icon: fas fa-list
+  #portfolio:
+  #  title: "Portfolio"
+  #  text: "Lorem ipsum dolor sit amet consectetur."
+  #  section: portfolio
+  #  closebutton: "Close Project"
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
-
+  about:
+    title: "Course"
+    text: "训练营 课程"
+    body1: "<h3>3D视觉精英实战训练营</h3><br>“3D视觉精英实战训练营”是由奥比中光发起的公益助学活动，旨在将国内最前沿3D视觉技术带到校园，在提升同学们对前沿技术理解和认知的同时，也期待为3D视觉及人工智能行业规模化发展搭建强大的后备人才培育平台。<br>公司可能会请专人来进行系列免费培训，[附往届信息](https://developer.orbbec.com.cn/news_details.html?id=80)。按照去年课程目录，会讲授3D视觉技术赋能行业应用场景数字化升级、3D视觉传感器基础与技术原理解析等课程，开发人体识别及跟踪、人体手势和姿态识别及交互、P2P导航+避障、手势控制机械臂抓取+机器人避障等任务。"
+    body2: "<h3>《三维视觉：原理与实践》课程</h3><br>我们可能会组织成员学习一些计算机视觉相关的课程，如题，[附课程地址](https://developer.orbbec.com.cn/v/lecture?tid=26)。该课程系统地介绍了三维视觉基本原理及应用实践，内容包括：基础的二维图像处理算法、深度学习方法，相机模型与标定、双目立体视觉、散斑结构光、飞行时间法（TOF）等三维成像原理与算法，基于点云的三维重建算法，基于RGBD相机和LiDAR的SLAM算法，3D人脸识别算法，RGBD图像分割算法，基于RGBD图像人体姿态估计等。"
+    section: about
+    
   timeline:
     title: "Timeline"
-    text: "Lorem ipsum timeline"
+    text: "时间轴"
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "了解、初识"
+        year: "2021"
+        desc: "参加奥比中光&英伟达<br>第二届3D视觉创新应用竞赛"
         image: assets/img/timeline/1.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "筹划、创建"
+        year: "2022.8"
+        desc: "初步筹划并创立追光空间站"
         image: assets/img/timeline/2.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
+      # - title: "Title"
+        # year: "2009-2011"
+        # desc: "Your description here, **Markdown** is fully supported."
+        # image: assets/img/timeline/4.jpg
+        # alt:
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  # clients:
+    # section: clients
+    # max-height: 100px
+    # horizontal-scrolling: "" #"yes/no"
+    # list:
+      # - title: "envato"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/envato.jpg
+      # - title: "designmodo"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/designmodo.jpg
+      # - title: "themeforest"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/themeforest.jpg
+      # - title: "Creative Market"
+        # url: https://github.com/raviriley/agency-jekyll-theme
+        # logo: assets/img/clients/creative-market.jpg
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "TEAM"
+    text: "团队"
+    subtext: 
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "胡煜成"
+        role: "指导教师"
+        image: assets/img/team/hyc2021.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://hydrays.github.io/
+            icon: fab fa-github
+          # - url: 
+            # icon: fab fa-weixin
+          # - url: https://linkedin.com
+            # icon: fab fa-linkedin-in
+      # - name: "Larry Parker"
+        # role: "Lead Marketer"
+        # image: assets/img/team/2.jpg
+        # social:
+          # - url: https://twitter.com
+            # icon: fab fa-twitter
+          # - url: https://facebook.com
+            # icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+            # icon: fab fa-linkedin-in
+      # - name: "Diana Perterson"
+        # role: "Lead Developer"
+        # image: assets/img/team/500x500.jpg
+        # social:
+          # - url: https://twitter.com
+            # icon: fab fa-twitter
+          # - url: https://facebook.com
+            # icon: fab fa-facebook-f
+          # - url: https://linkedin.com
+            # icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "联系我们"
+    body: "邮箱：orbbec_cnu@163.com<br>Github：https://github.com/OrbbecCnuCLSS<br>微信：......"
     section: contact
-    name: "Name*"
-    name-validation: "Please enter your name."
-    email: "Email*"
-    email-validation: "Please enter your email address."
-    phone: "Phone Number"
-    phone-validation: "Please enter your phone number."
-    message: "Message*"
-    message-validation: "Please enter a message."
-    subject: "Contact Form Submission"
-    submit: "Send Message"
+    
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+      # - url: https://twitter.com
+        # icon: "fab fa-twitter"
+      # - url: https://facebook.com
+        # icon: "fab fa-facebook-f"
+      # - url: https://linkedin.com
+        # icon: "fab fa-linkedin-in"
+      # - url: https://github.com/raviriley/agency-jekyll-theme
+        # icon: "fab fa-github"
+      # - url: https://instagram.com
+        # icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -320,3 +307,154 @@ es-ES:
   <<: *DEFAULT_ES
 es-CO:
   <<: *DEFAULT_ES
+
+# Deutsch
+# -----------------
+de: &DEFAULT_DE
+  header:
+    title: Willkommen auf unserer Webseite!
+    text: Schön das Sie hier sind!
+    button: Mehr erfahren
+    buttonlink: "#Angebote"
+
+  services:
+    title: "Leistungen"
+    text: "Was wir anbieten."
+    section: Leistungen
+    list:
+      - title: "E-Commerce"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+      - title: "Responsive Design"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: fas fa-laptop
+      - title: "[Markdown](https://de.wikipedia.org/wiki/Markdown)"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        icon: fab fa-markdown
+
+  portfolio:
+    title: "Portfolio"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    section: Portfolio
+    closebutton: "Schließen"
+
+  timeline:
+    title: "Geschichte"
+    text: "Lorem ipsum timeline"
+    section: Geschichte
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "Unsere Anfänge"
+        year: "2009-2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/1.jpg
+        alt:
+      - title: "Gründung der Firma"
+        year: "März 2011"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+        image: assets/img/timeline/2.jpg
+        alt:
+      - title: "Das Jekyll-Thema wurde erstellt"
+        year: "2019"
+        desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
+        image: assets/img/timeline/3.jpg
+        alt: Bildbeschreibung
+      - title: "Titel"
+        year: "2009-2011"
+        desc: "Hier können Sie etwas mit **Markdown** einfügen."
+        image: assets/img/timeline/4.jpg
+        alt:
+        # you can enforce the alignment
+        align: right
+    end: "Seien Sie <br> Teil unserer <br> Geschichte!"
+
+  about:
+    title: "Über uns"
+    text: "Unsere Geschichte."
+    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    section: Ueber
+
+  clients:
+    section: Kunden
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/envato.jpg
+      - title: "designmodo"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/designmodo.jpg
+      - title: "themeforest"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/themeforest.jpg
+      - title: "Creative Market"
+        url: https://github.com/raviriley/agency-jekyll-theme
+        logo: assets/img/clients/creative-market.jpg
+
+  team:
+    title: "Unser großartiges Team"
+    text: "Lorem ipsum dolor sit amet consectetur."
+    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: Team
+    people:
+      - name: "Kay Garland"
+        role: "Chef-Designer"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Larry Parker"
+        role: "Chef der Werbeabteilung"
+        image: assets/img/team/2.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+      - name: "Diana Perterson"
+        role: "Chef-Programmiererin"
+        image: assets/img/team/500x500.jpg
+        social:
+          - url: https://twitter.com
+            icon: fab fa-twitter
+          - url: https://facebook.com
+            icon: fab fa-facebook-f
+          - url: https://linkedin.com
+            icon: fab fa-linkedin-in
+
+  contact:
+    title: "Kontakt"
+    text: "Kontaktieren Sie uns."
+    section: Kontakt
+    name: "Name*"
+    name-validation: "Geben Sie einen Namen ein."
+    email: "E-Mail*"
+    email-validation: "Geben Sie Ihre E-Mail-Addresse ein."
+    phone: "Telefonnummer*"
+    phone-validation: "Geben Sie Ihre Telefonnummer ein."
+    message: "Nachricht*"
+    message-validation: "Schreiben Sie etwas..."
+    subject: "Kontakt-Formular Bestätigung"
+    submit: "Nachricht absenden"
+
+  footer:
+    legal: "Datenschutzerklärung"
+    social:
+      - url: https://twitter.com
+        icon: "fab fa-twitter"
+      - url: https://facebook.com
+        icon: "fab fa-facebook-f"
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+      - url: https://instagram.com
+        icon: "fab fa-instagram"
